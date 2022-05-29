@@ -1,18 +1,22 @@
 package br.com.alura.loja.modelo;
 
-import javax.persistence.*;
 import java.math.BigDecimal;
 
-@Entity()
-@Table(name = "Produtos")
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "produtos")
 public class Produto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    //@Column(name = "desc") dessa forma ensinamos a JPA que o nome da coluna na tabela é diferente
-    private String descricao;
+    private String descricao; //@Column(name = "desc") dessa forma ensinamos a JPA que o nome da coluna na tabela é diferente
     private BigDecimal preco;
 
     public Long getId() {
