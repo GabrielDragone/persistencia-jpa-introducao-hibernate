@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc86ed74-0bf1-4c5e-948d-4d14b23b1e7b" name="Changes" comment="Implementando Entidade e configuracoes para salvar registro">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/dao/CategoriaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/dao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/util/JPAUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/testes/CadastroDeProduto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -44,10 +48,18 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel Alves/OneDrive/Documentos/Projects&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.loja.modelo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.loja.dao" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CadastroDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.testes.CadastroDeProduto" />
-      <module name="alura-jpa-hibernate-aula-01" />
+      <module name="persistencia-jpa-introducao-hibernate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.loja.testes.*" />
